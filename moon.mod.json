@@ -1,0 +1,10 @@
+{
+  "name": "zdu881/DataProc",
+  "version": "0.1.0",
+  "readme": "README.md",
+  "repository": "",
+  "license": "Apache-2.0",
+  "keywords": ["data", "statistics"],
+  "description": "Some functions for data statistics.",
+  "source": "src"
+}

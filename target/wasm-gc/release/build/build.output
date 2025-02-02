@@ -1,0 +1,1 @@
+{"$message_type":"diagnostic","level":"warning","loc":{"path":"/home/nyz/Testing/DataPorc/src/moon.pkg.json","start":{"line":3,"col":5},"end":{"line":3,"col":26}},"message":"Warning: Unused package 'zdu881/DataProc/lib'","error_code":1029}
