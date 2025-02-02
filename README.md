@@ -7,7 +7,7 @@ DataProc 是一个用于数据统计分析的库，提供了多种常用的统�
 请确保已安装 Moonbit 编程语言，然后克隆此仓库并导入项目。
 
 ```sh
-git clone https://github.com/zdu881/DataProc.git
+git clone git@github.com:zdu881/moonbit-DataProc.git
 ```
 
 ## 使用示例
