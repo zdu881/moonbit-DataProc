@@ -1,15 +1,15 @@
 {
-  "source_dir": "/home/nyz/Testing/DataPorc",
+  "source_dir": "/home/nyz/Testing/moonbit-DataProc",
   "name": "zdu881/DataProc",
   "packages": [
     {
       "is-main": false,
       "is-third-party": false,
-      "root-path": "/home/nyz/Testing/DataPorc/src/DataProc",
+      "root-path": "/home/nyz/Testing/moonbit-DataProc/src/DataProc",
       "root": "zdu881/DataProc",
       "rel": "DataProc",
       "files": {
-        "/home/nyz/Testing/DataPorc/src/DataProc/dispersion.mbt": {
+        "/home/nyz/Testing/moonbit-DataProc/src/DataProc/dispersion.mbt": {
           "backend": [
             "Wasm",
             "WasmGC",
@@ -21,7 +21,7 @@
             "Release"
           ]
         },
-        "/home/nyz/Testing/DataPorc/src/DataProc/basics.mbt": {
+        "/home/nyz/Testing/moonbit-DataProc/src/DataProc/basics.mbt": {
           "backend": [
             "Wasm",
             "WasmGC",
@@ -33,7 +33,7 @@
             "Release"
           ]
         },
-        "/home/nyz/Testing/DataPorc/src/DataProc/correlation.mbt": {
+        "/home/nyz/Testing/moonbit-DataProc/src/DataProc/correlation.mbt": {
           "backend": [
             "Wasm",
             "WasmGC",
@@ -48,7 +48,7 @@
       },
       "wbtest-files": {},
       "test-files": {
-        "/home/nyz/Testing/DataPorc/src/DataProc/median_test.mbt": {
+        "/home/nyz/Testing/moonbit-DataProc/src/DataProc/median_test.mbt": {
           "backend": [
             "Wasm",
             "WasmGC",
@@ -64,7 +64,7 @@
       "deps": [],
       "wbtest-deps": [],
       "test-deps": [],
-      "artifact": "/home/nyz/Testing/DataPorc/target/wasm-gc/release/check/DataProc/DataProc.mi"
+      "artifact": "/home/nyz/Testing/moonbit-DataProc/target/wasm-gc/release/check/DataProc/DataProc.mi"
     }
   ],
   "deps": [],

@@ -10,15 +10,35 @@ DataProc 是一个用于数据统计分析的库，提供了多种常用的统�
 git clone git@github.com:zdu881/moonbit-DataProc.git
 ```
 
-## 使用示例
+## 更新计划
 
-```moonbit
+我们计划在未来的版本中添加以下功能：
 
-let data = [1.0, 2.0, 3.0, 4.0, 5.0]
+- 支持更多的统计函数，如偏度和峰度。
+- 提供数据可视化工具。
+- 增加对大数据集的优化处理。
+- 提供更多的示例和文档。
 
-let mean_value = @DataProc.mean(data)
-print("均值: ", mean_value)
+以下是一些我们最近计划添加的统计函数的详细说明：
 
-let median_value = @DataProc.median(data)
-print("中位数: ", median_value)
+- **偏度 (Skewness)**: 衡量数据分布的不对称程度。偏度的计算公式如下：
+
+  ```markdown
+  Skewness = (n / ((n-1)(n-2))) \* Σ((xi - x̄) / s)^3
+  ```
+
+  其中，n 是数据点的数量，xi 是第 i 个数据点，x̄ 是数据的均值，s 是数据的标准差。
+
+- **峰度 (Kurtosis)**: 衡量数据分布的尖峰程度。峰度的计算公式如下：
+
+  ```markdown
+  Kurtosis = (n(n+1) / ((n-1)(n-2)(n-3))) \* Σ((xi - x̄) / s)^4 - (3(n-1)^2 / ((n-2)(n-3)))
+  ```
+
+  其中，n 是数据点的数量，xi 是第 i 个数据点，x̄ 是数据的均值，s 是数据的标准差。
+
+周末更新，敬请期待！
+
+```
+
 ```
